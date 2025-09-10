@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/CreateMemeFragment">
+
+    <fragment
+        android:id="@+id/FeedFragment"
+        android:name="com.example.memes.FeedFragment"
+        android:label="Feed"/>
+
+    <fragment
+        android:id="@+id/CreateMemeFragment"
+        android:name="com.example.memes.CreateMemeFragment"
+        android:label="Create Meme"/>
+
+
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.memes.ProfileFragment"
+        android:label="Profile"/>
+</navigation>
